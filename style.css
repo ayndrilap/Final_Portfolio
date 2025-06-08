@@ -1,0 +1,101 @@
+body {
+  background-image:url(Starry.png);
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+hr{
+  border-color: #3e62b6;
+}
+
+h1 {
+  font-weight: bold;
+}
+h3{
+  color: #fffbe4;
+  word-wrap: break-word;
+}
+h2{
+  color: blanchedalmond;
+}
+.info{
+  width: auto;
+}
+.title{
+  color: #f6ddff;
+  align-self: center;
+  justify-content: center;
+  text-shadow: 3px 3px #e800ff; 
+
+}
+p {
+  display: flex;
+  color: #fefff8;
+  font-family: monospace;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 20px;
+  display: flex;
+  margin: 30px;
+  width: auto;
+  background-color:#0c2c6c;
+  line-height: 55px;
+  font-size: 43px;
+  border-style: groove;
+  border-color: #a5c0eb;
+  align-self: center;
+  background-image: image();
+}
+.container >
+{
+  align-content: center;
+}
+
+.img{
+  align-self: center;
+  align-content: center;
+  border-style: solid;
+  max-height: 400px;
+  max-width: 400px;
+  border-style:double;
+  border-color: #e2b522;
+  padding: 10px;
+  border-radius: 1000px;
+}
+
+.wave{
+  background-color: #b8aaca;
+
+  border: 2px solid #192A51;
+
+  border-color: #ffffff;
+
+  color: whitesmoke;
+
+  text-align: center;
+
+  font-size: 0.9em;
+
+  height: 50px;
+
+  overflow: hidden;
+
+  width: 80%;
+
+  margin: 10px auto;
+
+  transition: height 0.8s ease;
+
+}  /* Adjust the speed for smooth expansion */
+
+.wave:hover {
+
+  height: 400px;  /* Adjust to fit content */
+
+
+}
+.list{
+  list-style-position:inside;
+}
