@@ -3,6 +3,10 @@ body {
   background-size: cover; /* Ensures the image covers the entire element */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+a {
+  color: cornflowerblue;
+  text-decoration: double;
+}
 hr{
   border-color: #3e62b6;
 }
